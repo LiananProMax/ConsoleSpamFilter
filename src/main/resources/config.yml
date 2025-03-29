@@ -1,0 +1,6 @@
+no-permission-message: "&cYou lack the permission &7consolefilter.reload"
+config-reloaded-message: "&cConsoleFilter &aConfig reloaded!"
+keep-logs: 7
+filter:
+  - "Server thread/WARN"
+  - "Ignoring advancement"

@@ -1,0 +1,12 @@
+name: ConsoleSpamFilter
+version: '1.0-SNAPSHOT'
+main: dev.lianan.consoleSpamFilter.ConsoleSpamFilter
+api-version: '1.21'
+commands:
+  reloadconsolefilter:
+    description: Reload the filter configuration
+    usage: /reloadconsolefilter
+permissions:
+  consolefilter.reload:
+    description: Allows reloading the config
+    default: op
